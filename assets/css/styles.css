@@ -68,6 +68,9 @@ html{
     width: 100%;
    
 }
+.cards .container{
+    padding: 0 8.6rem;
+}
 .container .cards__row{
     display: flex;
     gap: 1.6rem;
@@ -85,13 +88,15 @@ html{
 }
 .card .card__image{
     border-radius: 2.4rem;
+    width: 100%;
+    height: 100%;
     
 }
-.card--text{
+.cards__row .card--text{
     background-color: var(--content-bg);
     position: relative;
     width: 100%;
-    
+
 }
 
 .card--text .card__frame{
