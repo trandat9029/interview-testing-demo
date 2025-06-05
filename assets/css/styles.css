@@ -14,10 +14,9 @@ html{
     font-family: 'Lato', sans-serif;
 }
 
-body{
-    /* padding: 1.2rem; */
-}
 
+
+/* ----------section gallery---------- */
 .gallery {
     padding: 0 32.5rem;
     display: flex;
@@ -52,4 +51,70 @@ body{
     text-align: center;
     justify-content: center;
     width: 78.2rem;
+}
+
+/* ----------section cards---------- */
+
+.cards{
+    margin-top: 2.4rem;
+    width: 100%;
+}
+.cards .container {
+    padding: 1.2rem;
+}
+
+.cards__row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+}
+
+.card{
+    width: 68.4rem;
+    height: 80rem;
+    border-radius: 2.4rem;
+}
+.card.card--text{
+    background-color: var(--content-bg);
+}
+
+.card .card__image{
+    border-radius: 2.4rem;
+}
+
+.card--text .card__header{
+    font-family: var(--font-header);
+    font-weight: 400;
+    font-size: 6.4rem;
+    line-height: 7.4rem;
+    color: #1f1f1f;
+    letter-spacing: 0;
+}
+.card__content{
+
+}
+
+.card__content .card__title{
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3rem;
+    color: #1f1f1f;
+    letter-spacing: 0%;
+    paragraph-spacing: 1.6rem;
+}
+.card__content .card__text{
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #1f1f1f;
+    letter-spacing: 0%;
+    paragraph-spacing: 1.6rem;
+}
+.card__content .card__desc{
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    color: #1f1f1f;
+    letter-spacing: 0%;
+    paragraph-spacing: 1.6rem;
 }
