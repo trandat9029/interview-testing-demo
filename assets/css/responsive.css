@@ -1,0 +1,33 @@
+/* PC  */
+@media(min-width: 992px){
+    
+}
+/* Tablet & mobile */
+@media(max-width: 991.98px){
+
+}
+
+/* Tablet */
+@media(min-width: 768px) and (max-width: 991.98px){
+
+}
+
+/* Mobile */
+@media(max-width: 767.98px){
+    .gallery{
+        padding: 0 0.8rem;
+    }
+    .gallery__title {
+        font-size: 3.2rem;
+    }
+    .gallery .gallery__row{
+        gap: 0.4rem;
+    }
+    .gallery .gallery__row .gallery__image {
+        width: 17.7rem;
+        height: 28.9rem;
+    }
+    .gallery .gallery__text {
+        font-size: 1.4rem;
+    }
+}
