@@ -2,14 +2,46 @@
 @media(min-width: 992px){
     
 }
-/* Tablet & mobile */
-@media(max-width: 991.98px){
-
-}
 
 /* Tablet */
 @media(min-width: 768px) and (max-width: 991.98px){
+     .container {
+        padding: 0 2.4rem;
+        width: 100%;
+    }
 
+    /* -------gallery------- */
+    .gallery {
+        padding: 0 4rem;
+    }
+
+    .gallery__title {
+        font-size: 4.2rem;
+        line-height: 4.6rem;
+        text-align: center;
+    }
+
+    .gallery .gallery__row {
+        flex-direction: row;
+        justify-content: center;
+        gap: 1.6rem;
+        padding: 3.2rem 0;
+    }
+
+    .gallery .gallery__row .gallery__image {
+        width: 50%;
+        height: 40rem;
+        object-fit: cover;
+        border-radius: 1.2rem;
+    }
+
+    .gallery .gallery__text {
+        font-size: 2rem;
+        line-height: 2.2rem;
+
+    }
+
+  
 }
 
 /* Mobile */
@@ -89,6 +121,4 @@
     .card__content .card__desc{
         padding: 0 0.8rem;
     }
-
-
 }
