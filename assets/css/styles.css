@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+    --font-header: 'Lora', sans-serif;
+    --color-text: #2c2a29;
+    --content-bg:#f4f0ea;
+
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    padding: 1.2rem;
+
+}
