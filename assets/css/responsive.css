@@ -40,7 +40,55 @@
         line-height: 2.2rem;
 
     }
+    /* --------cards--------- */
+    .cards__row {
+        width: 100%;
+        flex-direction: column;
+    }
 
+    .cards__row--first {
+        flex-direction: column-reverse;
+        margin-bottom: 0.8rem;
+    }
+    .cards__row .card{
+        width: 100%;
+        height: auto;
+
+    }
+    .card .card__image{
+        width:100%;
+        height: auto;
+        border-radius: 1.6rem;
+        
+    }
+    .card--text {
+        position: static !important; 
+        padding: 0.8rem;
+        height: auto; 
+    }
+    .card--text .card__header{
+        padding: 0 2.4rem;
+        font-size: 4.2rem;
+        line-height: 4.2rem;
+    }
+    .card--text .card__frame {
+        position: static !important; 
+        bottom: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 2.4rem;
+        padding: 0;
+    }
+    .card__content .card__title{
+        padding: 0 2.4rem;
+        font-size: 2.4rem;
+        line-height: 3.0rem;
+    }
+
+    .card__content .card__desc{
+        padding: 0 2.4rem;
+        font-size: 1.8rem;
+    }
   
 }
 
@@ -95,11 +143,9 @@
     .card--text {
         position: static !important; 
         padding: 0.8rem;
-        background-color: var(--content-bg);
         height: 42rem; 
     }
     .card--text .card__header{
-        font-family: var(--font-header);
         padding: 0 0.8rem;
         font-size: 3.2rem;
         line-height: 4.2rem;
