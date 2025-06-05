@@ -14,16 +14,22 @@ html{
     font-family: 'Lato', sans-serif;
 }
 
- .container {
-    padding: 0 6.4rem;
-}
+
 
 
 /* ----------section gallery---------- */
 .gallery {
-    padding: 0 32.5rem;
+    /* padding: 0 32.5rem; */
     display: flex;
     flex-direction: column;
+    
+}
+.gallery .container {
+    padding: 0 2.4rem;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
 }
 .gallery__title {
     font-family: var(--font-header);
@@ -52,8 +58,7 @@ html{
     line-height: 2.2rem;
     color: var(--color-text);
     text-align: center;
-    justify-content: center;
-    
+    width:44%; 
 }
 
 /* ----------section cards---------- */
