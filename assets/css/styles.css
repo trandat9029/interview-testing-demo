@@ -66,7 +66,6 @@ html{
 
 .cards__row{
     display: flex;
-    flex-wrap: wrap;
     gap: 0.8rem;
 }
 
@@ -75,12 +74,11 @@ html{
     height: 80rem;
     border-radius: 2.4rem;
 }
-.card.card--text{
+.card--text{
     background-color: var(--content-bg);
     position: relative;
     
 }
-
 
 .card .card__image{
     border-radius: 2.4rem;
